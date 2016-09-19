@@ -1,0 +1,5 @@
+1;Corrida
+2;Natação
+3;Levantamento de peso
+4;Salto em altura
+5;Ginástica artística

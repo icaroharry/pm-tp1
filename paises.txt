@@ -1,0 +1,5 @@
+1;Japão
+2;USA
+3;Chile
+4;Rússia
+5;Brasil

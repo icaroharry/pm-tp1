@@ -1,0 +1,7 @@
+Quadro de medalhas
+
+Rússia       2          2          0
+USA          2          1          2
+Brasil       1          0          1
+Japão        0          2          1
+Chile        0          0          1

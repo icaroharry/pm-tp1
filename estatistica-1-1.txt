@@ -1,0 +1,7 @@
+Corrida
+
+João         9.15
+Kawasaki     9.85
+Carlos       9.89
+Smith        10.08
+Sergey       10.55
