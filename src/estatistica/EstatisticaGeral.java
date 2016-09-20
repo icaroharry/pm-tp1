@@ -7,16 +7,23 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import tp1.Atleta;
-import tp1.Pais;
+import pais.Pais;
 
 public class EstatisticaGeral {
+
+    /**
+     * Método utilizado para gerar estatísticas gerais das olimpíadas.
+     * @param List<pais> paises - lista paises participantes
+     */
     public static void gerarEstatistica(List<Pais> paises) {
-        gerarQuadroDeMedalhas(paises);
         try {
+            gerarQuadroDeMedalhas(paises);
+
+            // Abre o arquivo
             FileWriter arq = new FileWriter("estatistica-2.txt");
             PrintWriter gravarArq = new PrintWriter(arq);
 
+            // Grava o arquivo
             gravarArq.printf("Quadro de medalhas\n");
             for(int i=0; i < paises.size(); i++) {
                 gravarArq.printf("\n%-12s %d %10d %10d",
@@ -26,6 +33,7 @@ public class EstatisticaGeral {
                         paises.get(i).getMedalhasBronze());
             }
 
+            // Fecha o arquivo
             arq.close();
         } catch(IOException e) {
             System.err.printf("Erro na abertura do arquivo: %s.\n",
@@ -33,8 +41,18 @@ public class EstatisticaGeral {
         }
     }
 
+    /**
+     * Método utilizado para ordenar a lista de países, colocando-os
+     * na ordem do número de medalhas de ouro ganhas.
+     *
+     * Se o número de medalhas de ouro é o mesmo, utiliza-se as medalhas de prata.
+     * Se o número de medalhas de prata também é o mesmo, utiliza-se as medalhas de bronze.
+     * Se o número de medalhas de bronze também é o mesmo, utiliza-se a ordem alfabética
+     *
+     * Esse método é implementado na classe de estatísticas visto que não tem a ver com um país
+     * individualmente para que seja implementado na classe País.
+     */
     public static void gerarQuadroDeMedalhas(List<Pais> paises) {
-        // Sorting
         Collections.sort(paises, new Comparator<Pais>() {
             @Override
             public int compare(Pais a, Pais b) {

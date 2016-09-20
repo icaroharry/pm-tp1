@@ -1,11 +1,12 @@
 package esporte;
 
-import tp1.Atleta;
+import atleta.Atleta;
 
 import java.util.Collections;
 import java.util.Comparator;
 
 public class LevantamentoPeso extends Esporte {
+    // Construtores
     public LevantamentoPeso() {
         super();
     }
@@ -16,10 +17,18 @@ public class LevantamentoPeso extends Esporte {
 
     public LevantamentoPeso(int id) {
         super(id);
-        this.setNome("Levantamento de Peso");
+        this.setNome("Levantamento de peso");
     }
 
-    private double calculaResultadoIndividual(double[] result) {
+    // Métodos
+
+    /**
+     * Sobrescrita do método calculaResultadoIndividual
+     * No caso do levantamento de pesos, o resultado individual é calculado
+     * pela soma do peso de 5 levantamentos
+     */
+    @Override
+    protected double calculaResultadoIndividual(double[] result) {
         double soma = 0;
         for(int i = 0; i < 5; i++) {
             soma += result[i];
@@ -27,9 +36,13 @@ public class LevantamentoPeso extends Esporte {
         return soma;
     }
 
+    /**
+     * Sobrescrita do método determinaVencedor
+     * No caso da ginástica, é feito uma ordenação de forma decrescente (do maior para o menor tempo)
+     * na lista de atletas.
+     */
     @Override
     public void determinaVencedor() {
-        // Sorting
         Collections.sort(atletas, new Comparator<Atleta>() {
             @Override
             public int compare(Atleta a, Atleta b) {
@@ -40,17 +53,5 @@ public class LevantamentoPeso extends Esporte {
                 }
             }
         });
-        for(int i = 0; i < atletas.size(); i++) {
-            System.out.print(atletas.get(i).getResultadoIndividual());
-            System.out.printf("\n");
-        }
-    }
-
-    @Override
-    public void novoAtleta(Atleta a) {
-        double resultadoIndividual = calculaResultadoIndividual(a.getResult());
-        a.setResultadoIndividual(resultadoIndividual);
-        System.out.printf("TESTE + %f", a.getResultadoIndividual());
-        super.novoAtleta(a);
     }
 }

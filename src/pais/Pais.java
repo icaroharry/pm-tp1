@@ -1,13 +1,14 @@
-package tp1;
-
+package pais;
 
 public class Pais {
+    // Atributos
     private int id;
     private String nome;
     private int medalhasOuro = 0;
     private int medalhasPrata = 0;
     private int medalhasBronze = 0;
 
+    // Construtores
     public Pais(int id, String nome) {
         this.id = id;
         this.nome = nome;
@@ -21,6 +22,7 @@ public class Pais {
         this.medalhasBronze = medalhasBronze;
     }
 
+    // Getters e setters
     public int getId() {
         return id;
     }
@@ -56,14 +58,25 @@ public class Pais {
         this.medalhasBronze = medalhasBronze;
     }
 
+    // Métodos
+
+    /**
+     * Método que acrescenta uma medalha de ouro para o país corrente.
+     */
     public void novaMedalhaOuro() {
         this.medalhasOuro++;
     }
 
+    /**
+     * Método que acrescenta uma medalha de prata para o país corrente.
+     */
     public void novaMedalhaPrata() {
         this.medalhasPrata++;
     }
 
+    /**
+     * Método que acrescenta uma medalha de bronze para o país corrente.
+     */
     public void novaMedalhaBronze() {
         this.medalhasBronze++;
     }

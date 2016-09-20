@@ -1,11 +1,12 @@
 package esporte;
 
-import tp1.Atleta;
+import atleta.Atleta;
 
 import java.util.Collections;
 import java.util.Comparator;
 
 public class Natacao extends Esporte {
+    // Construtores
     public Natacao() {
         super();
     }
@@ -19,7 +20,15 @@ public class Natacao extends Esporte {
         this.setNome("Natação");
     }
 
-    private double calculaResultadoIndividual(double[] result) {
+    // Métodos
+
+    /**
+     * Sobrescrita do método calculaResultadoIndividual
+     * No caso da natação, o resultado individual é calculado
+     * pelo menor tempo de 3 baterias
+     */
+    @Override
+    protected double calculaResultadoIndividual(double[] result) {
         double menor = 1000;
         for(int i = 0; i < 3; i++) {
             if(result[i] < menor) {
@@ -29,9 +38,13 @@ public class Natacao extends Esporte {
         return menor;
     }
 
+    /**
+     * Sobrescrita do método determinaVencedor
+     * No caso da natação, é feito uma ordenação de forma crescente (do menor para o maior tempo)
+     * na lista de atletas.
+     */
     @Override
     public void determinaVencedor() {
-        // Sorting
         Collections.sort(atletas, new Comparator<Atleta>() {
             @Override
             public int compare(Atleta a, Atleta b) {
@@ -42,17 +55,5 @@ public class Natacao extends Esporte {
                 }
             }
         });
-        for(int i = 0; i < atletas.size(); i++) {
-            System.out.print(atletas.get(i).getResultadoIndividual());
-            System.out.printf("\n");
-        }
-    }
-
-    @Override
-    public void novoAtleta(Atleta a) {
-        double resultadoIndividual = calculaResultadoIndividual(a.getResult());
-        a.setResultadoIndividual(resultadoIndividual);
-        System.out.printf("TESTE Nat + %f", a.getResultadoIndividual());
-        super.novoAtleta(a);
     }
 }

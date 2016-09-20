@@ -7,4 +7,4 @@ clean:
 	rm -rf *.class
 
 run:
-	java src/tp1/tp1.java
+	java src/app/app.java

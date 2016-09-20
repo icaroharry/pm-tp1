@@ -1,11 +1,12 @@
 package esporte;
 
-import tp1.Atleta;
+import atleta.Atleta;
 
 import java.util.Collections;
 import java.util.Comparator;
 
 public class GinasticaArtistica extends Esporte {
+    // Construtores
     public GinasticaArtistica() {
         super();
     }
@@ -16,10 +17,17 @@ public class GinasticaArtistica extends Esporte {
 
     public GinasticaArtistica(int id) {
         super(id);
-        this.setNome("Ginástica Artística");
+        this.setNome("Ginástica artística");
     }
 
-    private double calculaResultadoIndividual(double[] result) {
+    // Métodos
+
+    /**
+     * Sobrescrita do método calculaResultadoIndividual
+     * No caso da ginástica, o resultado individual é calculado pela média de notas dadas por 4 juízes
+     */
+    @Override
+    protected double calculaResultadoIndividual(double[] result) {
         double media = 0;
         for(int i = 0; i < 4; i++) {
             media += result[i];
@@ -27,9 +35,13 @@ public class GinasticaArtistica extends Esporte {
         return media/4;
     }
 
+    /**
+     * Sobrescrita do método determinaVencedor
+     * No caso da ginástica, é feito uma ordenação de forma decrescente (do maior para o menor tempo)
+     * na lista de atletas.
+     */
     @Override
     public void determinaVencedor() {
-        // Sorting
         Collections.sort(atletas, new Comparator<Atleta>() {
             @Override
             public int compare(Atleta a, Atleta b) {
@@ -40,17 +52,5 @@ public class GinasticaArtistica extends Esporte {
                 }
             }
         });
-        for(int i = 0; i < atletas.size(); i++) {
-            System.out.print(atletas.get(i).getResultadoIndividual());
-            System.out.printf("\n");
-        }
-    }
-
-    @Override
-    public void novoAtleta(Atleta a) {
-        double resultadoIndividual = calculaResultadoIndividual(a.getResult());
-        a.setResultadoIndividual(resultadoIndividual);
-        System.out.printf("TESTE + %f\n", a.getResultadoIndividual());
-        super.novoAtleta(a);
     }
 }

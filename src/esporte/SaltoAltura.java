@@ -1,6 +1,6 @@
 package esporte;
 
-import tp1.Atleta;
+import atleta.Atleta;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -19,7 +19,13 @@ public class SaltoAltura extends Esporte {
         this.setNome("Salto em altura");
     }
 
-    private double calculaResultadoIndividual(double[] result) {
+    /**
+     * Sobrescrita do método calculaResultadoIndividual
+     * No caso dos saltos, o resultado individual é calculado
+     * pela maior altura de 5 saltos
+     */
+    @Override
+    protected double calculaResultadoIndividual(double[] result) {
         double maior = 0;
         for(int i = 0; i < 5; i++) {
             if(result[i] > maior) {
@@ -29,9 +35,13 @@ public class SaltoAltura extends Esporte {
         return maior;
     }
 
+    /**
+     * Sobrescrita do método determinaVencedor
+     * No caso do salto, é feito uma ordenação de forma decrescente (do maior para o menor tempo)
+     * na lista de atletas.
+     */
     @Override
     public void determinaVencedor() {
-        // Sorting
         Collections.sort(atletas, new Comparator<Atleta>() {
             @Override
             public int compare(Atleta a, Atleta b) {
@@ -42,17 +52,5 @@ public class SaltoAltura extends Esporte {
                 }
             }
         });
-        for(int i = 0; i < atletas.size(); i++) {
-            System.out.print(atletas.get(i).getResultadoIndividual());
-            System.out.printf("\n");
-        }
-    }
-
-    @Override
-    public void novoAtleta(Atleta a) {
-        double resultadoIndividual = calculaResultadoIndividual(a.getResult());
-        a.setResultadoIndividual(resultadoIndividual);
-        System.out.printf("TESTE + %f", a.getResultadoIndividual());
-        super.novoAtleta(a);
     }
 }
