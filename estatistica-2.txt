@@ -1,16 +1,8 @@
 Quadro de medalhas
 
 País        Ouro       Prata      Bronze
-USA         1          1          1
-Marrocos    1          1          0
-Nicarï¿½gua 1          1          0
-Egito       1          0          0
-Suriname    1          0          0
-China       0          1          0
-Rï¿½ssia    0          1          0
-Escï¿½cia   0          0          2
-Japï¿½o     0          0          1
-Panamï¿½    0          0          1
-Brasil      0          0          0
-Chile       0          0          0
-Espanha     0          0          0
+Rï¿½ssia    2          2          0
+USA         2          1          2
+Brasil      1          0          1
+Japï¿½o     0          2          1
+Chile       0          0          1

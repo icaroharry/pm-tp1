@@ -54,5 +54,5 @@ $(BIN)%.class : $(SRC)%.java
 clean:
 	rm -rf $(BIN)*
 
-run: ./out/app.class
-	java app.main
+run:
+	java app.class

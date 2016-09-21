@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39ef33fe-2aa0-49b6-a4e7-093f41ff2330" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentação.pdf" afterPath="$PROJECT_DIR$/Documentação.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atletas.txt" afterPath="$PROJECT_DIR$/atletas.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatisticas.txt" afterPath="$PROJECT_DIR$/estatisticas.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paises.txt" afterPath="$PROJECT_DIR$/paises.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/app.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/atleta/Atleta.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/Corrida$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/Corrida.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/Esporte.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/GinasticaArtistica$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/GinasticaArtistica.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/LevantamentoPeso$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/LevantamentoPeso.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/Natacao$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/Natacao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/SaltoAltura$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/SaltoAltura.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaEsporte.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaGeral$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaGeral.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/pais/Pais.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/pm-tp1/util/ManipulacaoArquivo.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-1-1.txt" afterPath="$PROJECT_DIR$/estatistica-1-1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-1-5.txt" afterPath="$PROJECT_DIR$/estatistica-1-5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-2.txt" afterPath="$PROJECT_DIR$/estatistica-2.txt" />
     </list>
     <ignored path="pm-tp1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +50,18 @@
       <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            <state relative-caret-position="521">
+              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -57,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paises.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="paises.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paises.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -111,12 +141,10 @@
         <option value="$PROJECT_DIR$/src/esporte/Natacao.java" />
         <option value="$PROJECT_DIR$/src/esporte/SaltoAltura.java" />
         <option value="$PROJECT_DIR$/src/esporte/LevantamentoPeso.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/util/ManipulacaoArquivo.java" />
         <option value="$PROJECT_DIR$/src/estatistica/EstatisticaEsporte.java" />
         <option value="$PROJECT_DIR$/src/exception/OlimpiadasException.java" />
         <option value="$PROJECT_DIR$/src/app.java" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/doc" />
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/src/estatistica/EstatisticaGeral.java" />
@@ -124,6 +152,8 @@
         <option value="$PROJECT_DIR$/atletas.txt" />
         <option value="$PROJECT_DIR$/estatisticas.txt" />
         <option value="$PROJECT_DIR$/paises.txt" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -181,6 +211,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pm-tp1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pm-tp1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pm-tp1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,12 +712,12 @@
       <workItem from="1474295007564" duration="19517000" />
       <workItem from="1474323104963" duration="5852000" />
       <workItem from="1474334114423" duration="7222000" />
-      <workItem from="1474421363109" duration="4174000" />
+      <workItem from="1474421363109" duration="4997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36765000" />
+    <option name="totallyTimeSpent" value="37588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="0" width="1362" height="769" extended-state="6" />
@@ -903,13 +947,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1164,14 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atletas.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1200,6 +1229,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
