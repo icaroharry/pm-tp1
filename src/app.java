@@ -10,12 +10,13 @@ import java.io.InputStreamReader;
 import atleta.Atleta;
 import esporte.*;
 import estatistica.*;
+import exception.OlimpiadasException;
 import pais.Pais;
 import util.ManipulacaoArquivo;
 
 public class app {
 
-    public static void main(String args[]){
+    public static void main(String args[]) throws OlimpiadasException{
 
         // Atributos
         int id;
@@ -38,7 +39,7 @@ public class app {
         Pais pais;
         List<Pais> relacaoPaises = new ArrayList<>();
 
-        List<String> linhas = new ArrayList<>();
+        List<String> linhas;
 
         /**
          * Leitura e instanciação dos países
@@ -83,7 +84,8 @@ public class app {
                     idGinastica = Integer.parseInt(entrada[0]);
                     ginastica = new GinasticaArtistica(idGinastica);
                     break;
-
+                default:
+                    throw new OlimpiadasException("Esporte inexistente!");
             }
         }
 
@@ -118,6 +120,8 @@ public class app {
                 salto.novoAtleta(atleta);
             } else if (idEsporte == idNatacao) {
                 natacao.novoAtleta(atleta);
+            } else {
+                throw new OlimpiadasException("Esporte inexistente!");
             }
         }
 
@@ -152,9 +156,13 @@ public class app {
                     EstatisticaEsporte.gerarEstatistica(natacao);
                 } else if(Integer.parseInt(entrada[1]) == idSalto) {
                     EstatisticaEsporte.gerarEstatistica(salto);
+                } else {
+                    throw new OlimpiadasException("Opção de esporte inválida!");
                 }
             } else if(Integer.parseInt(entrada[0]) == 2){
                 EstatisticaGeral.gerarEstatistica(relacaoPaises);
+            } else {
+                throw new OlimpiadasException("Opção de estatística inválida!");
             }
         }
 

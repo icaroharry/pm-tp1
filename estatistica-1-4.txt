@@ -1,7 +1,12 @@
 Salto em altura
 
-Christopher  2.07
-Nikolay      2.06
-Jeffrey      2.05
-Antonio      2.04
-Marcos       2.04
+Ryu         2.15
+Bendelack   2.10
+Madruguinha 2.09
+Christopher 2.07
+Nikolay     2.06
+Jeffrey     2.05
+Antonio     2.04
+Marcos      2.04
+Tapia       2.04
+Nick        2.03

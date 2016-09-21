@@ -22,9 +22,16 @@ public class EstatisticaEsporte {
             // Grava arquivo
             gravarArq.printf("%s\n", esporte.getNome());
             for(int i=0; i < esporte.getAtletas().size(); i++) {
-                gravarArq.printf("\n%-12s %.2f",
-                        esporte.getAtletas().get(i).getNome(),
-                        esporte.getAtletas().get(i).getResultadoIndividual());
+                if (esporte.getNome() == "Levantamento de peso") {
+                    gravarArq.printf("\n%-11s %d",
+                            esporte.getAtletas().get(i).getNome(),
+                            (int)esporte.getAtletas().get(i).getResultadoIndividual());
+                } else {
+                    gravarArq.printf("\n%-11s %.2f",
+                            esporte.getAtletas().get(i).getNome(),
+                            esporte.getAtletas().get(i).getResultadoIndividual());
+                }
+
             }
 
             // Fecha arquivo

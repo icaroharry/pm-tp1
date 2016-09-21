@@ -25,8 +25,9 @@ public class EstatisticaGeral {
 
             // Grava o arquivo
             gravarArq.printf("Quadro de medalhas\n");
+            gravarArq.printf("\n%-11s %s %11s %11s", "País", "Ouro", "Prata", "Bronze");
             for(int i=0; i < paises.size(); i++) {
-                gravarArq.printf("\n%-12s %d %10d %10d",
+                gravarArq.printf("\n%-11s %d %10d %10d",
                         paises.get(i).getNome(),
                         paises.get(i).getMedalhasOuro(),
                         paises.get(i).getMedalhasPrata(),
@@ -59,7 +60,7 @@ public class EstatisticaGeral {
                 if(a.getMedalhasOuro() == b.getMedalhasOuro()) {
                     if(a.getMedalhasPrata() == b.getMedalhasPrata()) {
                         if(a.getMedalhasBronze() == b.getMedalhasBronze()) {
-                            return b.getNome().compareTo(a.getNome());
+                            return a.getNome().compareTo(b.getNome());
                         }
                         return Integer.compare(b.getMedalhasBronze(), a.getMedalhasBronze());
                     }

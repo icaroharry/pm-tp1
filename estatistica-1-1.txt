@@ -1,7 +1,12 @@
 Corrida
 
-João         9.15
-Kawasaki     9.85
-Carlos       9.89
-Smith        10.08
-Sergey       10.55
+Camargo     7.85
+Tuco        8.15
+Potro       8.85
+Joï¿½o      9.15
+Kawasaki    9.85
+Carlos      9.89
+Smith       10.08
+Filipe      10.11
+Wesley      10.26
+Sergey      10.55

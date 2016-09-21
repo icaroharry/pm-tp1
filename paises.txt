@@ -1,5 +1,13 @@
-1;Japão
+1;Japï¿½o
 2;USA
 3;Chile
-4;Rússia
+4;Rï¿½ssia
 5;Brasil
+6;Escï¿½cia
+7;Nicarï¿½gua
+8;Panamï¿½
+9;Espanha
+10;China
+11;Suriname
+12;Marrocos
+13;Egito

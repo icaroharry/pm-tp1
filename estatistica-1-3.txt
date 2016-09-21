@@ -1,6 +1,10 @@
-Levantamento de Peso
+Levantamento de peso
 
-Alexei       1072.00
-Maxim        1072.00
-Albert       1068.00
-Blake        1061.00
+Mime        1101
+Kaiba       1090
+Joey        1084
+Alexei      1072
+Maxim       1072
+Albert      1068
+Aldebaran   1064
+Blake       1061
