@@ -3,11 +3,3 @@
 3;Chile
 4;R�ssia
 5;Brasil
-6;Esc�cia
-7;Nicar�gua
-8;Panam�
-9;Espanha
-10;China
-11;Suriname
-12;Marrocos
-13;Egito

@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39ef33fe-2aa0-49b6-a4e7-093f41ff2330" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentação.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/OlimpiadasException.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/estatistica-1-1.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pm-tp1/app.class" afterPath="$PROJECT_DIR$/out/production/pm-tp1/app.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pm-tp1/esporte/LevantamentoPeso.class" afterPath="$PROJECT_DIR$/out/production/pm-tp1/esporte/LevantamentoPeso.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaEsporte.class" afterPath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaEsporte.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaGeral$1.class" afterPath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaGeral$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaGeral.class" afterPath="$PROJECT_DIR$/out/production/pm-tp1/estatistica/EstatisticaGeral.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/pm-tp1/util/ManipulacaoArquivo.class" afterPath="$PROJECT_DIR$/out/production/pm-tp1/util/ManipulacaoArquivo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentação.pdf" afterPath="$PROJECT_DIR$/Documentação.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atletas.txt" afterPath="$PROJECT_DIR$/atletas.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-1-2.txt" afterPath="$PROJECT_DIR$/estatistica-1-2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-1-3.txt" afterPath="$PROJECT_DIR$/estatistica-1-3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-1-4.txt" afterPath="$PROJECT_DIR$/estatistica-1-4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-1-5.txt" afterPath="$PROJECT_DIR$/estatistica-1-5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica-2.txt" afterPath="$PROJECT_DIR$/estatistica-2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatisticas.txt" afterPath="$PROJECT_DIR$/estatisticas.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paises.txt" afterPath="$PROJECT_DIR$/paises.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.java" afterPath="$PROJECT_DIR$/src/app.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/estatistica/EstatisticaEsporte.java" afterPath="$PROJECT_DIR$/src/estatistica/EstatisticaEsporte.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/estatistica/EstatisticaGeral.java" afterPath="$PROJECT_DIR$/src/estatistica/EstatisticaGeral.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util/ManipulacaoArquivo.java" afterPath="$PROJECT_DIR$/src/util/ManipulacaoArquivo.java" />
     </list>
     <ignored path="pm-tp1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +27,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1008">
               <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="esportes.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esportes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estatisticas.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estatisticas.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paises.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/paises.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="atletas.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atletas.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -101,11 +119,11 @@
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/doc" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/src/estatistica/EstatisticaGeral.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/atletas.txt" />
         <option value="$PROJECT_DIR$/estatisticas.txt" />
         <option value="$PROJECT_DIR$/paises.txt" />
-        <option value="$PROJECT_DIR$/src/estatistica/EstatisticaGeral.java" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -163,38 +181,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pm-tp1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pm-tp1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pm-tp1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pm-tp1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pm-tp1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estatistica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,12 +668,12 @@
       <workItem from="1474295007564" duration="19517000" />
       <workItem from="1474323104963" duration="5852000" />
       <workItem from="1474334114423" duration="7222000" />
-      <workItem from="1474421363109" duration="4018000" />
+      <workItem from="1474421363109" duration="4174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36609000" />
+    <option name="totallyTimeSpent" value="36765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="0" width="1362" height="769" extended-state="6" />
@@ -1112,22 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atletas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="19" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paises.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1140,14 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estatisticas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1202,6 +1164,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atletas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/esportes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1210,10 +1188,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/estatisticas.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paises.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
